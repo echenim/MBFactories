@@ -1,0 +1,16 @@
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\Sender.exe
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.AssemblyInfoInputs.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.AssemblyInfo.cs
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\Sender.deps.json
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\Sender.runtimeconfig.json
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\Sender.runtimeconfig.dev.json
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\Sender.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\Sender.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.CoreCompileInputs.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.csproj.CopyComplete
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.genruntimeconfig.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\Receiver.exe
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.AssemblyInfoInputs.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.AssemblyInfo.cs
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\Receiver.deps.json
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\Receiver.runtimeconfig.json
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\Receiver.runtimeconfig.dev.json
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\Receiver.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\Receiver.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.csproj.CoreCompileInputs.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.csproj.CopyComplete
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.genruntimeconfig.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Receiver\obj\Debug\netcoreapp3.1\Receiver.csprojAssemblyReference.cache
