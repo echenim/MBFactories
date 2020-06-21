@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{CA9A3528-4004-4144-9DF9-99FBA5FA54F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBFactories", "MBFactories\MBFactories.csproj", "{4F9A0A55-A02A-4E13-9C99-7164DEE9A201}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CA9A3528-4004-4144-9DF9-99FBA5FA54F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA9A3528-4004-4144-9DF9-99FBA5FA54F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA9A3528-4004-4144-9DF9-99FBA5FA54F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9A0A55-A02A-4E13-9C99-7164DEE9A201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9A0A55-A02A-4E13-9C99-7164DEE9A201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9A0A55-A02A-4E13-9C99-7164DEE9A201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9A0A55-A02A-4E13-9C99-7164DEE9A201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
