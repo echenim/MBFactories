@@ -15,7 +15,7 @@ namespace Sender
         Factories _send;
         public Senders()
         {
-            _send = new Factories("192.168.226.132", 5672, "admin", "password", "rabbitMqVirtualHost");
+            _send = new Factories("192.168.1.91", 5672, "admin", "password", "rabbitMqVirtualHost");
         }
 
         public void Publish()

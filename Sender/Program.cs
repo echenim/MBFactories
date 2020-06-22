@@ -17,7 +17,7 @@ namespace Sender
             
 
             timer = new System.Timers.Timer();
-            timer.Interval = 20000;
+            timer.Interval = 12000;
 
             timer.Elapsed += OnTimedEvent;
             timer.AutoReset = true;

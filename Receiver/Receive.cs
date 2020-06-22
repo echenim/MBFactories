@@ -11,7 +11,7 @@ namespace Receiver
         Factories _receive;
         public Receive()
         {
-            _receive = new Factories("192.168.226.132", 5672, "admin", "password", "rabbitMqVirtualHost");
+            _receive = new Factories("192.168.1.91", 5672, "admin", "password", "rabbitMqVirtualHost");
         }
 
         public void Consumer()

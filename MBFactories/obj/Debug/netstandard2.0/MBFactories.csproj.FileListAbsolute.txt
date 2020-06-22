@@ -5,5 +5,4 @@ C:\Kitchen\microsoftKitchen\MBFactories\MBFactories\obj\Debug\netstandard2.0\MBF
 C:\Kitchen\microsoftKitchen\MBFactories\MBFactories\bin\Debug\netstandard2.0\MBFactories.pdb
 C:\Kitchen\microsoftKitchen\MBFactories\MBFactories\obj\Debug\netstandard2.0\MBFactories.dll
 C:\Kitchen\microsoftKitchen\MBFactories\MBFactories\obj\Debug\netstandard2.0\MBFactories.pdb
-C:\Kitchen\microsoftKitchen\MBFactories\MBFactories\obj\Debug\netstandard2.0\MBFactories.csprojAssemblyReference.cache
 C:\Kitchen\microsoftKitchen\MBFactories\MBFactories\obj\Debug\netstandard2.0\MBFactories.csproj.CoreCompileInputs.cache
