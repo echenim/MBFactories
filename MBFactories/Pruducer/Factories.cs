@@ -1,20 +1,20 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-using MBFactories.Contracts;
+using MBFactories.Domain;
+using MBFactories.Producer.Contracts;
 using MBFactories.utiles;
 using MBFactories.utiles.Contracts;
 using RabbitMQ.Client;
 
 
-namespace MBFactories
+namespace MBFactories.Producer
 {
-    public class Factories:IFactories
+    public class Factories:IFactories<Transactions>
     {
         private ConnectionFactory _conn;
-
-        public Factories()
-        {
-        }
 
         public Factories(string _hostname, int _port, string _username, string _password, string _virtualhost)
         {
@@ -29,16 +29,42 @@ namespace MBFactories
             };
         }
 
-        public string Consum(string queue_name)
+        public void Publish(string queue_name, Transactions data)
+        {
+            using (var conn = _conn.CreateConnection())
+            {
+                using (var channel = conn.CreateModel())
+                {
+                    channel.QueueDeclare(queue: queue_name,
+                                         durable: false,
+                                         exclusive: false,
+                                         autoDelete: false,
+                                         arguments: null);
+                    var message = data;
+                    var body = Extensionz.ToByteArray(data);
+                    channel.BasicPublish(exchange: "",
+                                         routingKey: queue_name,
+                                         basicProperties: null,
+                                         body: body);
+                }
+            }
+        }
+
+        public void Publish(string queue_name, List<Transactions> data)
         {
             throw new NotImplementedException();
         }
 
+        //public string Consum(string queue_name)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
         public void Publish(string queue_name, string data)
         {
-            using(var conn = _conn.CreateConnection())
+            using (var conn = _conn.CreateConnection())
             {
-                using(var channel = conn.CreateModel())
+                using (var channel = conn.CreateModel())
                 {
                     channel.QueueDeclare(queue: queue_name,
                                          durable: false,

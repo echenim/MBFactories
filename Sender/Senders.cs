@@ -1,14 +1,18 @@
-﻿using MBFactories;
-using MBFactories.Contracts;
+﻿using MBFactories.Domain;
+using MBFactories.Producer;
+using MBFactories.Producer.Contracts;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Sender
 {
    public class Senders
     {
-        IFactories _send;
+      
+        Factories _send;
         public Senders()
         {
             _send = new Factories("192.168.226.132", 5672, "admin", "password", "rabbitMqVirtualHost");
@@ -16,7 +20,18 @@ namespace Sender
 
         public void Publish()
         {
-            _send.Publish("Kilo", "Much I do About nothing");
+           var _data = new Transactions
+            {
+               Id = Guid.NewGuid().ToString().Replace("-","").ToUpper(),
+               AccountNumber = $"{00}{20* new Random(12).Next(100000, 999999)}",
+               AccountIdentifier = $"FBN{4* new Random(34).Next(1000, 9999)}",
+               Amount = (decimal)(14.45* new Random(34).Next(1000,9999)),
+               TransactionFee = (decimal)2.4500,
+               TransactionDate = DateTime.Now,
+
+            };           
+            _send.Publish("FBNK", _data);
         }
+
     }
 }
