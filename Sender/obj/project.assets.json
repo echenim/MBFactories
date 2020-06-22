@@ -32,6 +32,19 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
+      },
+      "MBFactories/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "RabbitMQ.Client": "6.1.0"
+        },
+        "compile": {
+          "bin/placeholder/MBFactories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MBFactories.dll": {}
+        }
       }
     }
   },
@@ -101,10 +114,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MBFactories/1.0.0": {
+      "type": "project",
+      "path": "../MBFactories/MBFactories.csproj",
+      "msbuildProject": "../MBFactories/MBFactories.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "MBFactories >= 1.0.0",
       "RabbitMQ.Client >= 6.1.0"
     ]
   },
@@ -133,7 +152,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Kitchen\\microsoftKitchen\\MBFactories\\MBFactories\\MBFactories.csproj": {
+              "projectPath": "C:\\Kitchen\\microsoftKitchen\\MBFactories\\MBFactories\\MBFactories.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

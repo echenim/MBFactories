@@ -14,3 +14,5 @@ C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.dl
 C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.pdb
 C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.genruntimeconfig.cache
 C:\Kitchen\microsoftKitchen\MBFactories\Sender\obj\Debug\netcoreapp3.1\Sender.csprojAssemblyReference.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\MBFactories.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Sender\bin\Debug\netcoreapp3.1\MBFactories.pdb

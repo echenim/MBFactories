@@ -7,6 +7,7 @@ namespace MBFactories.utiles.Contracts
 {
     internal interface IConnections
     {
-      ConnectionFactory  OpenConnection(string hostname, int port, string username, string password, string virtualhost);
+        ConnectionFactory OpenConnection();
+        ConnectionFactory  OpenConnection(string hostname, int port, string username, string password, string virtualhost);
     }
 }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Sender/1.0.0": {
         "dependencies": {
+          "MBFactories": "1.0.0",
           "RabbitMQ.Client": "6.1.0"
         },
         "runtime": {
@@ -33,6 +34,14 @@
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.20.21406"
           }
+        }
+      },
+      "MBFactories/1.0.0": {
+        "dependencies": {
+          "RabbitMQ.Client": "6.1.0"
+        },
+        "runtime": {
+          "MBFactories.dll": {}
         }
       }
     }
@@ -63,6 +72,11 @@
       "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
       "path": "system.threading.channels/4.7.1",
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
+    },
+    "MBFactories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
