@@ -35,16 +35,20 @@ namespace MBFactories.Producer
             {
                 using (var channel = conn.CreateModel())
                 {
+                   
                     channel.QueueDeclare(queue: queue_name,
-                                         durable: false,
+                                         durable: true,
                                          exclusive: false,
                                          autoDelete: false,
                                          arguments: null);
+
+                    var properties = channel.CreateBasicProperties();
+                    properties.Persistent = true;
                     var message = data;
                     var body = Extensionz.ToByteArray(data);
-                    channel.BasicPublish(exchange: "",
+                    channel.BasicPublish(exchange: "fbnk",
                                          routingKey: queue_name,
-                                         basicProperties: null,
+                                         basicProperties: properties,
                                          body: body);
                 }
             }

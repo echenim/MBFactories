@@ -17,7 +17,7 @@ namespace Sender
             
 
             timer = new System.Timers.Timer();
-            timer.Interval = 12000;
+            timer.Interval = 8000;
 
             timer.Elapsed += OnTimedEvent;
             timer.AutoReset = true;
@@ -33,7 +33,7 @@ namespace Sender
         {
             var send = new Senders();
             send.Publish();
-            Console.WriteLine("New Data Published: {0}", e.SignalTime);
+            Console.WriteLine("New Data Published: {0}  \n", e.SignalTime);
         }
     }
 }

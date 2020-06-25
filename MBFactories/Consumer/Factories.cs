@@ -46,7 +46,8 @@ namespace MBFactories.Consumer
                     {
                         var body = ea.Body.ToArray();
                         var message = Extensionz.ToObject(body.ToArray());
-                        Console.WriteLine($"{message.Id} | {message.AccountNumber} | {message.AccountNumber} | {message.Amount} | {message.TransactionFee} | {message.TransactionDate}");
+                        channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
+                        Console.WriteLine($"{message.Id} | {message.AccountIdentifier} | {message.AccountNumber} | {message.Amount} | {message.TransactionFee} | {message.TransactionDate}");
                     };
                     channel.BasicConsume(queue: queue_name,
                                          autoAck: false,

@@ -1,0 +1,17 @@
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\Subscriber.exe
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\Subscriber.deps.json
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\Subscriber.runtimeconfig.json
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\Subscriber.runtimeconfig.dev.json
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\Subscriber.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\Subscriber.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\MBFactories.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\bin\Debug\netcoreapp3.1\MBFactories.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.AssemblyInfoInputs.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.AssemblyInfo.cs
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.csproj.CoreCompileInputs.cache
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.csproj.CopyComplete
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.dll
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.pdb
+C:\Kitchen\microsoftKitchen\MBFactories\Subscriber\obj\Debug\netcoreapp3.1\Subscriber.genruntimeconfig.cache

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Folder Include="Pruducer\Contracts\Base\" />
+    <Folder Include="PublisherAndSubscribers\Contracts\" />
   </ItemGroup>
 
 </Project>

@@ -24,7 +24,7 @@ namespace Sender
             {
                Id = Guid.NewGuid().ToString().Replace("-","").ToUpper(),
                AccountNumber = $"{00}{20* new Random(12).Next(100000, 999999)}",
-               AccountIdentifier = $"FBN{4* new Random(34).Next(1000, 9999)}",
+               AccountIdentifier = $"STB{4* new Random(34).Next(1000, 9999)}",
                Amount = (decimal)(14.45* new Random(34).Next(1000,9999)),
                TransactionFee = (decimal)2.4500,
                TransactionDate = DateTime.Now,
